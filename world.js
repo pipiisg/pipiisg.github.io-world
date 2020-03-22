@@ -52,7 +52,6 @@ setInterval(loop, 30)
 world.src = "moutline.gif"
 
 window.addEventListener("keypress", () => {
-    console.log(event.key)
     if (event.key == "s"){
         if (dis){
             dis = false
