@@ -3,7 +3,7 @@ const c = can.getContext('2d')
 
 can.height = window.innerHeight
 can.width = window.innerWidth
-
+console.log("hi")
 can.focus()
 
 var H = can.height
